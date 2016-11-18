@@ -1,0 +1,78 @@
+
+.mailbar{
+width: 320px;
+padding: 11px;
+}
+
+.submitbtn{
+	margin-top:-2px;
+	margin-left: 3px;
+	color: #934583;
+	border-color: #934583;
+}
+.submitbtn:hover{
+	background-color: #934583;
+	color: #000;
+	border-color: #934583;
+}
+.newsletter{
+	padding: 20px;
+	margin-bottom: 30px;
+}
+
+.newsletter p{
+	margin-bottom: 10px;
+}
+
+.text{
+	margin-bottom: 10px;
+}
+
+.fbbtn {
+	border-color: #3b5998;
+	color: #3b5998;
+}
+.fbbtn:hover{
+	background-color: #3b5998;
+	border-color: #3b5998;
+	color: #000;
+}
+
+.twbtn{
+border-color: #00aced;
+	color: #00aced;
+}
+
+.twbtn:hover{
+background-color: #00aced;
+border-color:#00aced;
+	color: #000;
+}
+
+.gpbtn{
+border-color: #dd4b39;
+	color:#dd4b39;
+}
+
+.gpbtn:hover{
+	background-color: #dd4b39;
+	border-color: #dd4b39;
+	color: #000;
+}
+
+
+//for counter
+h1{
+	margin-bottom: 0;
+}
+.date{
+	margin-top: -20px;
+	font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+}
+
+.timer{
+	border: 2px solid #fff;
+	border-left: 0px;
+	border-right: 0px;
+}
