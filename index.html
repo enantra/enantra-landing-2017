@@ -32,7 +32,13 @@
 
 </head>
 
+
+<!--loader-->
+<div class="se-pre-con"></div>
+
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+
 
     <!-- Navigation -->
     <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
@@ -173,6 +179,12 @@
   .addEventListener( "click", function() {
     this.classList.toggle( "active" );
   });
+
+  // Wait for window load
+    $(window).load(function() {
+        // Animate loader off screen
+        $(".se-pre-con").fadeOut("slow");;
+    });
     </script>
 
 </body>
