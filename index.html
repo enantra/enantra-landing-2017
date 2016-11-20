@@ -17,6 +17,7 @@
     <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 
     <!-- Theme CSS -->
     <link href="css/grayscale.css" rel="stylesheet">
@@ -38,10 +39,10 @@
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-                    Menu <i class="fa fa-bars"></i>
+                     <a id="nav-toggle" href="#"><span></span></a>
                 </button>
                 <a class="navbar-brand page-scroll" href="#page-top">
-                    <span class="light">Enantra</span> '16
+                    <img class="img-responsive" src="img/enantra_logo_side_white.png" width="140px"/>
                 </a>
             </div>
 
@@ -103,7 +104,7 @@
     </header>
 
     <!-- About Section -->
-    <section id="about" class="container content-section text-center">
+    <section id="about" class="content-section text-center" style="background-color:#fff; color:#233e6a;">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>About Enantra</h2>
@@ -114,16 +115,13 @@
                     Enantra is South India’s Biggest Entrepreneurship Festival, first of its kind inviting start-ups, entrepreneurs,
                     mentors and investors from all over India and around the world with 600+ colleges under our wing to paticipate.
                 </p>
-                <p>
-                    About the Logo: The Logo of Enantra is a hexagon, which is 6 sides. These 6 sides define the 6P’s of Entrepreneurship i.e.
-                    Passion + Path + Positivity + People + Perseverance + Productivity. These are the essential tools that
-                    will make your goals reachable and your life extraordinary.</p>
+                
             </div>
         </div>
     </section>
 
     <!-- Contact Section -->
-    <section id="contact" class="container content-section text-center">
+    <section id="contact" class="content-section text-center" style="background-color:#233e6a;">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>Contact Us</h2>
@@ -143,7 +141,7 @@
 
     <!-- Footer -->
     <footer>
-        <div class="container text-center">
+        <div class="text-center">
             <p>Copyright &copy; Enantra 2016- 17</p>
         </div>
     </footer>
@@ -169,6 +167,12 @@
             var deadline = new Date("December 25, 2016 00:00:00");
             initializeClock('clockdiv', deadline);
         };
+
+        //for collapse icon
+    document.querySelector( "#nav-toggle" )
+  .addEventListener( "click", function() {
+    this.classList.toggle( "active" );
+  });
     </script>
 
 </body>
