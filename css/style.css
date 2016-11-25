@@ -1,123 +1,138 @@
-//for navbar toggle
-//for navbar icon
+#nav-toggle {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
 
-#nav-toggle
-{ position: absolute; left: 50%; top: 50%; }
+#nav-toggle {
+    cursor: pointer;
+    padding: 10px 35px 16px 0px;
+}
 
-#nav-toggle
- { cursor: pointer; padding: 10px 35px 16px 0px; }
+#nav-toggle span,
+#nav-toggle span:before,
+#nav-toggle span:after {
+    cursor: pointer;
+    border-radius: 3px;
+    height: 4px;
+    width: 30px;
+    background: #fff;
+    position: absolute;
+    display: block;
+    content: '';
+}
 
-#nav-toggle span, #nav-toggle span:before, #nav-toggle span:after 
-{  cursor: pointer;  border-radius: 3px;  height: 4px;  width: 30px;  background:#fff;  position: absolute;  display: block;  content: '';}
+#nav-toggle span:before {
+    top: -10px;
+}
 
-#nav-toggle span:before {  top: -10px; }#nav-toggle span:after {  bottom: -10px;}
+#nav-toggle span:after {
+    bottom: -10px;
+}
 
-#nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {  transition: all 500ms ease-in-out;}
+#nav-toggle span,
+#nav-toggle span:before,
+#nav-toggle span:after {
+    transition: all 500ms ease-in-out;
+}
 
-#nav-toggle.active span {  background-color: transparent;}
+#nav-toggle.active span {
+    background-color: transparent;
+}
 
-#nav-toggle.active span:before, #nav-toggle.active span:after {  top: 0;}#nav-toggle.active span:before {  transform: rotate(45deg);}
+#nav-toggle.active span:before,
+#nav-toggle.active span:after {
+    top: 0;
+}
 
-#nav-toggle.active span:after {  transform: rotate(-45deg);}
+#nav-toggle.active span:before {
+    transform: rotate(45deg);
+}
 
+#nav-toggle.active span:after {
+    transform: rotate(-45deg);
+}
 
-//for loading
+.no-js #loader {
+    display: none;
+}
 
-.no-js #loader { display: none;  }
-.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.js #loader {
+    display: block;
+    position: absolute;
+    left: 100px;
+    top: 0;
+}
+
 .se-pre-con {
-  position: fixed;
-  left: 0px;
-  top: 0px;
-  width: 100%;
-  height: 100%;
-  z-index: 9999;
-  background: url(../img/loading.gif) center no-repeat #fff;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url(../img/loading.gif) center no-repeat #fff;
 }
 
-
-
-
-
-.mailbar{
-width: 320px;
-padding: 11px;
+.mailbar {
+    width: 320px;
+    padding: 11px;
 }
 
-.submitbtn{
-	margin-top:-2px;
-	margin-left: 3px;
-	color: #934583;
-	border-color: #934583;
-}
-.submitbtn:hover{
-	background-color: #934583;
-	color: #000;
-	border-color: #934583;
-}
-.newsletter{
-	padding: 20px;
-	margin-bottom: 30px;
+.submitbtn {
+    margin-top: -2px;
+    margin-left: 3px;
+    color: #934583;
+    border-color: #934583;
 }
 
-.newsletter p{
-	margin-bottom: 10px;
+.submitbtn:hover {
+    background-color: #934583;
+    color: #000;
+    border-color: #934583;
 }
 
-.text{
-	margin-bottom: 10px;
+.newsletter {
+    padding: 20px;
+    margin-bottom: 30px;
 }
 
-.fbbtn {
-	border-color: #3b5998;
-	color: #3b5998;
-	background-color: #fff;
-}
-.fbbtn:hover{
-	background-color: #3b5998;
-	border-color: #3b5998;
-	color: #fff;
+.newsletter p {
+    margin-bottom: 10px;
 }
 
-.twbtn{
-border-color: #00aced;
-	color: #00aced;
+.text {
+    margin-bottom: 10px;
 }
 
-.twbtn:hover{
-background-color: #00aced;
-border-color:#00aced;
-	color: #000;
+.fb-btn {
+    border-color: #3b5998;
+    color: #3b5998;
+    background-color: #fff;
 }
 
-.gpbtn{
-border-color: #dd4b39;
-	color:#dd4b39;
+.fb-btn:hover {
+    background-color: #3b5998;
+    border-color: #3b5998;
+    color: #fff;
 }
 
-.gpbtn:hover{
-	background-color: #dd4b39;
-	border-color: #dd4b39;
-	color: #000;
+.navbar-brand {
+    padding: 0!important;
 }
 
-.navbar-brand{
-	padding: 0!important;
+h1 {
+    margin-bottom: 0;
 }
 
-
-//for counter
-h1{
-	margin-bottom: 0;
-}
-.date{
-	margin-top: -20px;
-	font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 300;
+.date {
+    margin-top: -20px;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 300;
 }
 
-.timer{
-	border: 2px solid #fff;
-	border-left: 0px;
-	border-right: 0px;
+.timer {
+    border: 2px solid #fff;
+    border-left: 0px;
+    border-right: 0px;
 }
