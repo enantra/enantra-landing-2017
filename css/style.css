@@ -136,3 +136,25 @@ h1 {
     border-left: 0px;
     border-right: 0px;
 }
+
+#runway{
+    background-image:url("../img/shark-tank.jpg"); 
+    color:#233e6a;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.text-bg{
+    padding: 30px;
+    background-color: #fff;
+    color: #6d6f71;
+}
+
+.btn-runway{
+    padding: 10px;
+    background-color: #6d6f71;
+    color: #fff;
+}
+.btn-runway:hover{
+    background-color: #233e6a;
+    color: #fff;
+}
